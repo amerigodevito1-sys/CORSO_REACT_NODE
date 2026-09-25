@@ -1,0 +1,28 @@
+{
+  "name": "giorno3",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "g3:01": "nodemon 01-middleware-base-e-catena.js",
+    "g3:02": "nodemon 02-tipi-middleware.js",
+    "g3:03": "nodemon 03-middleware-integrati.js",
+    "g3:04": "nodemon 04-morgan-logging.js",
+    "g3:05": "nodemon 05-cors.js",
+    "g3:06": "nodemon 06-middleware-personalizzati.js",
+    "g3:07": "nodemon 07-ordine-middleware-app-completa.js",
+    "g3:api": "nodemon api-dipendenti/app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "type": "commonjs"
+}
